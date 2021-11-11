@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/* HEADER STYLING */
+.header-wrapper {
+  border-bottom: 3px solid #e9e9ed;
+  height: 155.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-heading {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+.button-container {
+  font-size: 0;
+}
+
+.header-button {
+  font-size: 30px;
+  border-radius: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: none;
+  border-style: none;
+  font-family: "Quicksand", sans-serif;
+  cursor: pointer;
+}
+
+.header-button-clicked {
+  background-color: #d0d0d7;
+  outline: none;
+  pointer-events: none;
+}
+
+.home-button {
+  border-top-left-radius: 3px;
+}
+
+.contact-button {
+  border-top-right-radius: 3px;
+}
+/* BODY STYLING */
+
+.contents {
+  background-image: url("./cafe-background.jpeg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+/* ABOUT US PAGE STYLING */
+
+.home-page {
+  width: 1100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  width: 500px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.times-list {
+  padding-left: 0;
+}
+
+.times-list > li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.location {
+  padding-bottom: 100px;
+}
+
+/* MENU PAGE STYLING */
+
+.menu-page {
+  width: 1100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.menu-page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.menu-header {
+  border-bottom: 2px solid black;
+  margin-left: 40px;
+}
+
+.menu-items-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 900px;
+}
+
+.menu-item {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-item-description {
+  width: 300px;
+}
+
+/* CONTACT PAGE STYLING */
+
+.contact-page {
+  width: 1100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  width: 500px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 500px;
+}
+
+.hide-page {
+  display: none;
+}
