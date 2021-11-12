@@ -20,7 +20,7 @@ describe("Testing the restaurant page", () => {
     cy.get(".home-page-header").first().should("have.text", "About Us");
     cy.get(".header-button-clicked").should(
       "have.text",
-      "\n          Home\n        "
+      "\n          Home\n        " //Not sure why but the content of the Home button is formatted with two new line (\n) characters
     );
   });
 });
