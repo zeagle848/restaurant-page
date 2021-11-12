@@ -13,6 +13,7 @@ export function loadContactPage() {
   contactPageContent.classList.add("contact-page-content");
 
   const phoneNumberHeader = document.createElement("h2");
+  phoneNumberHeader.classList.add("contact-header");
   phoneNumberHeader.textContent = "Phone Number";
 
   contactPageContent.append(phoneNumberHeader);
@@ -23,6 +24,7 @@ export function loadContactPage() {
   contactPageContent.append(phoneNumber);
 
   const emailHeader = document.createElement("h2");
+  emailHeader.classList.add("contact-header");
   emailHeader.textContent = "E-mail";
 
   contactPageContent.append(emailHeader);
